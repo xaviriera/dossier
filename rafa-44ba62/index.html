@@ -191,6 +191,26 @@
   }
 </style>
 <style>.aviso-movil{display:none}@media (max-width:820px){.aviso-movil{display:block;margin:1.1rem auto 0.6rem;max-width:340px;font-size:13px;line-height:1.5;color:#BEA561;border:1px solid rgba(190,165,97,.45);padding:.7rem .9rem;text-align:center}}</style>
+<style>/* puerta: una sola pantalla, un solo fondo (13-sep) */
+html{background:#0E0E0E;}
+html,body{height:auto;}
+body{min-height:100vh;min-height:100svh;background-attachment:fixed;padding:clamp(14px,3vh,32px) clamp(20px,6vw,40px);}
+.marca{margin-bottom:clamp(10px,1.8vh,22px);}
+.puerta-logo{width:clamp(92px,min(38vw,19vh),210px);margin-bottom:clamp(12px,2.2vh,30px);}
+.linea{margin-bottom:clamp(12px,2.2vh,26px);}
+h1{font-size:clamp(22px,min(5.6vw,4.3vh),34px);margin-bottom:clamp(8px,1.4vh,14px);}
+p.intro{margin-bottom:clamp(14px,2.4vh,30px);line-height:1.6;}
+.ritual{margin-bottom:clamp(14px,2.4vh,28px);padding:clamp(12px,2vh,22px) clamp(16px,4vw,24px);}
+.ritual-texto{line-height:1.55;}
+p.microtexto{margin-bottom:clamp(10px,1.8vh,18px);}
+form{gap:10px;}
+@media (max-height:720px){p.intro{font-size:13px;}.ritual-texto{font-size:12.5px;}.ritual-titulo{margin-bottom:8px;}}
+.aviso-movil{margin:0.6rem auto 0.7rem!important;padding:.55rem .8rem!important;font-size:12.5px!important;}
+@media (max-width:480px) and (max-height:780px){.marca{display:none;}.puerta-logo{width:78px;margin-bottom:10px;}.linea{margin-bottom:10px;}
+h1{font-size:21px;margin-bottom:6px;}p.intro{font-size:12.8px;line-height:1.5;margin-bottom:10px;}.ritual{padding:10px 14px;margin-bottom:10px;}
+.ritual-texto{font-size:12.3px;line-height:1.45;}p.microtexto{margin-bottom:8px;}.aviso-movil{font-size:12px!important;margin:.4rem auto .5rem!important;}
+input[type="password"]{padding:11px 14px;}}
+</style>
 </head>
 <body>
 <div class="puerta" id="puerta">
